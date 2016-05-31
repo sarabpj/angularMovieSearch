@@ -1,7 +1,7 @@
-<div ng-show="searchString">
-<div ng-repeat="movie in movies">
-  <h3>{{movie.Title}}</h3>
-  <h5>{{movie.Year}}</h5>
-</div>
-
+<div ng-show="searchString" class="wrapper">
+  <div ng-repeat="movie in movies" class="result">
+  <!-- i will probably need to set an ng-click on the div -->
+    <h4><a href='/{{movie.imdbID}}/show'>{{movie.Title}}</a></h4>
+    <h5>{{movie.Year}}</h5>
+  </div>
 </div>

@@ -1,6 +1,12 @@
+.wrapper{
+  width: 650px;
+  margin: auto;
+}
+
 .result {
-  width: 400px;
+  width: 300px;
   height: 100px;
+  float: left;
   border: 1px solid black;
   display: inline-block;
   text-align: center;

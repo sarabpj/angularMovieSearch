@@ -1,0 +1,33 @@
+<div class="row"  ng-controller="ShowController">
+    <h2> {{movie.Title}}</h2>
+    <div class="col-sm-4">
+     <img src={{movie.Poster}} alt="" height="300px" width="200px">
+     </div>
+     <div class="col-sm-8">
+      <p><h4><small>Staring: {{movie.Actors}}</small></h4></p>
+      <br>
+      <p>{{movie.Plot}}</p>
+      <br>
+      <h4>Additional Details</h4>
+      <br>
+        <strong>Awards</strong>
+        <h5>{{movie.Awards}}</h5>
+        <strong>Country</strong>
+        <h5>{{movie.Country}}</h5>
+        <strong>Director</strong>
+        <h5>{{movie.Director}}</h5>
+        <strong>Genre</strong>
+        <h5>{{movie.Genre}}</h5>
+        <strong>Language</strong>
+        <h5>{{movie.Language}}</h5>
+        <strong>Rated</strong>
+        <h5>{{movie.Rated}}</h5>
+        <strong>Runtime</strong>
+        <h5>{{movie.Runtime}}</h5>
+        <strong>Year</strong>
+        <h5>{{movie.Year}}</h5>
+        <strong>imdbRating</strong>
+        <h5>{{movie.imdbRating}}</h5>
+     </div>
+
+</div>

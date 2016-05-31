@@ -7,7 +7,7 @@ app.config(function($routeProvider, $locationProvider) {
       templateUrl: '../partials/searchResults.html',
       controller: 'SearchController',
     })
-    .when('/id/show', {
+    .when('/:id/show', {
       templateUrl: '../partials/show.html',
       controller: 'ShowController'
     })
